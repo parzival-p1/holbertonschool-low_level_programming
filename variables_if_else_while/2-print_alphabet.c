@@ -10,7 +10,7 @@ int main(void)
 	char ch = 'a';
 
 	while (ch <= 'z')
-	{	printf("%c ", ch);
+	{	printf("%c", ch);
 		ch++;
 	}
 
