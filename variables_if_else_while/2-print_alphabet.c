@@ -9,12 +9,12 @@
  */
 int main(void)
 {
-	char ch = 'a';
+	int i = 97;
 
-	while (ch <= 'z')
-	{	printf("%c", ch);
-		ch++;
+	while (i < 123)
+	{	putchar(i);
+		i++;
 	}
-
+	putchar(10);
 	return (0);
 }
