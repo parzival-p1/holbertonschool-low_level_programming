@@ -1,16 +1,18 @@
 #include <stdio.h>
-/**
- * main - Entry point
- *
- * return: always 0 (succes)
- */
 
+/**
+ * main - prints the alphabet in lowcase,
+ *
+ * followed by a new line
+ *
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
 	char ch = 'a';
 
 	while (ch <= 'z')
-	{	printf("%c", ch);
+	{	printf ("%c", ch);
 		ch++;
 	}
 
