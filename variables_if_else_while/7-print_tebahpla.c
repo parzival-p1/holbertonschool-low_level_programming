@@ -3,7 +3,7 @@
 /**
  * main - prints the alphabet in reverse and
  *
- * and in lowcase 
+ * and in lowcase
  *
  * Return: Always 0 (success)
  */
