@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_alphabet - prints the alphabet in lowcase
- * followed by a new line.
- * Return: Always 0 (succes)
- */
-
+* _islower - Shows 1 if the input is a
+* lowercase character. Another cases, shows 0
+*
+* @c: The character in ASCII code
+*
+* Return: 1 for lowercase. 0 for the rest.
+*/
 int _islower(int c)
 {
 	if (c >= 97 && c <= 122)
