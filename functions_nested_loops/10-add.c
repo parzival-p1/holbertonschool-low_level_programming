@@ -10,7 +10,7 @@
 
 int add(int n, int m)
 {
-	int n;
+	int o;
 
 	o = n + m;
 
