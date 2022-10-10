@@ -1,6 +1,6 @@
 # C - Makefiles
 
-#Learning Objectives
+# Learning Objectives
 
 - What are make, Makefiles
 - When, why and how to use Makefiles
@@ -9,7 +9,7 @@
 - What are the most common / useful rules
 - What are variables and how to set and use them
 
-#Tasks
+# Tasks
 
  0. make -f 0-Makefile  | Create your first Makefile
 
