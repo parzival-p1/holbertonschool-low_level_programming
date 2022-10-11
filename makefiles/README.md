@@ -21,9 +21,10 @@
 
  4. A complete Makefile | See requirements
 
-# Recommended Links
+# Recommended Links 🔗
 
- https://youtu.be/GExnnTaBELk?t=1576 🔗
+ - C Programming: Makefiles 
+ https://youtu.be/GExnnTaBELk?t=1576
 
 
 
