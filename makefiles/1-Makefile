@@ -1,0 +1,5 @@
+CC = "the compiler to be user"
+SRC = "the c. files"
+
+all:
+	gcc main.c school.c -o school
