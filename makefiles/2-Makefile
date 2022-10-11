@@ -5,8 +5,8 @@ all: ${OBJ}
 
 CC = gcc
 
-OBJ = ${SRC:%.c=%.o} 
-
 SRC = main.c school.c
+
+OBJ = ${SRC:%.c=%.o} 
 
 NAME = school
