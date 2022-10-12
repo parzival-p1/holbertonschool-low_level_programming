@@ -1,6 +1,6 @@
 # C - More functions, more nested loops
 
-# Learning Objectives
+# Learning Objectives 🤓☕️ 
 
 - What are nested loops and how to use them
 - What is a function and how do you use functions
@@ -10,7 +10,7 @@
 - What are the gcc flags -Wall -Werror -pedantic -Wextra -std=gnu89
 - What are header files and how to to use them with #include
 
-# Tasks
+# Tasks 📚
 
 0. isupper | Write a function that checks for uppercase character.
 
@@ -30,7 +30,7 @@
 
 8. You are so much sunshine in every square inch | Write a function that prints a square, followed by a new line.
 
-# Interview question | Fizz-Buzz
+# Interview question | Fizz-Buzz ❓
 
 9. Fizz-Buzz 
 
@@ -41,4 +41,4 @@
 	- Each number or word should be separated by a space
 	- You are allowed to use the standard library
 
-# Recomended links	
+# Recomended links 🔗	
