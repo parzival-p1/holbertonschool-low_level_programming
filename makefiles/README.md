@@ -26,6 +26,9 @@
  - C Programming: Makefiles 
  https://youtu.be/GExnnTaBELk?t=1576
 
+ - Make file tutorial: 
+ https://makefiletutorial.com/#string-substitution
+
 
 
 
