@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * print_line - prints a line '_'
@@ -13,7 +12,7 @@ void print_line(int n)
 
 	while (m < n)
 	{
-		_putchar('_')
+		_putchar('_');
 		m++;
 	}
 	_putchar("\n");
