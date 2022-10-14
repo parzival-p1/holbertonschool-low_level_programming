@@ -6,27 +6,27 @@
  * Return: 0
  */
 
+
 void print_diagonal(int n)
 {
-	int o = 0;
-	int p = 0;
+	int o, p;
 
-	if (n > 0)
+	if (n <= 0)
+		_putchar('\n');
+	for (o = 0; o < n; o++)
+
 	{
-		while (o < n)
+		for (p = 0; p <= o; p++)
 		{
-			while (p < o)
+			if (o == p)
+			{
+				_putchar('\\');
+				_putchar('\n');
+			}
+			else
 			{
 				_putchar(' ');
-				p++;
 			}
-			o++;
-			p = 0;
-			_putchar('\\');
-			_putchar('\n');
-
 		}
 	}
-	else
-	_putchar('\n');
 }
