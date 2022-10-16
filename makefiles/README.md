@@ -24,13 +24,13 @@
 # Recommended Links 🔗
 
  - C Programming: Makefiles   
-	 https://youtu.be/GExnnTaBELk?t=1576
+	- https://youtu.be/GExnnTaBELk?t=1576
 
  - How to Create a Simple Makefile - Introduction to Makefiles
-	https://www.youtube.com/watch?v=_r7i5X0rXJk&t=45s
+	- https://www.youtube.com/watch?v=_r7i5X0rXJk&t=45s
 
  - Make file tutorial: 
-	https://makefiletutorial.com/#string-substitution
+	- https://makefiletutorial.com/#string-substitution
 
 
 
