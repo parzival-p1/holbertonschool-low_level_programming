@@ -41,4 +41,10 @@
 	- Each number or word should be separated by a space
 	- You are allowed to use the standard library
 
-# Recomended links 🔗	
+10. Triangles | Write a function that prints a triangle, followed by a new line.
+	
+# Recommended links 🔗	
+
+- Fizz Buzz Problem | C Programming Example	
+	https://youtu.be/qeAwnZ5xQAU
+
