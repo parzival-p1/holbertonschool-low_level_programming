@@ -3,8 +3,9 @@
 /**
  * swap_int - swaps the value of two integers
  *
- * @a - points to an int
- * @b - points to an int
+ * @a: points to an int a
+ *
+ * @b: points to an int b
  *
  */
 
