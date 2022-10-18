@@ -3,12 +3,11 @@
 /**
  * _strlen - returns the length of a string
  *
- * @s: 
- *
+ * @s: value to be evaluate.
  *
  */
 
 int _strlen(char *s)
 {
-	_strlen(*s);
+	_strlen(char *s);
 }
