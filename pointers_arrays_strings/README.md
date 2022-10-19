@@ -36,4 +36,5 @@
 	- https://www.youtube.com/watch?v=zuegQmMdy8M
 
 - C Programming: Pointers, arrays, and pointer arithmetic
-	- https://www.youtube.com/watch?v=nop5ZodWB_g
+
+	- https://youtu.be/nop5ZodWB_g?t=440
