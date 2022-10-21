@@ -4,7 +4,7 @@
  * _puts - writes the string s, and a writes a terminating 
  * newline character, to the stream stdout.
  *
- * @ str - returns a string
+ * @str - pointer to the string to print 
  */
 
 void _puts(char *str)
