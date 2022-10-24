@@ -18,7 +18,7 @@ char *_strcat(char *dest, char *src)
 /* 1. strnca */
 char *_strncat(char *dest, char *src, int n)	
 
-/* 2. strncpy  */i
+/* 2. strncpy  */
 char *_strncpy(char *dest, char *src, int n)
 
 /* 3. strcmp */
