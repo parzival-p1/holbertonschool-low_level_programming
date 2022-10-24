@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _strncat - concatenatest two strings. 
+ * _strncat - concatenatest two strings.
  *
- * @dest: destination string. 
+ * @dest: destination string.
  * @src: source string
  * @n: num of bytes of str to concat
  *
@@ -19,11 +19,10 @@ char *_strncat(char *dest, char *src, int n)
 	while (dest[len] != '\0')
 		len++;
 
-	for (len = 0; i < n && src[i] != '\0'; i++)
-	{
+	for (i = 0; i < n && src[i] != '\0'; i++)
 		dest[len + i] = src[i];
-	}
+	
 	dest[len + i] = '\0';
 
-	return(dest);
+	return (dest);
 }
