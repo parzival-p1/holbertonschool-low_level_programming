@@ -12,7 +12,8 @@
 
 char *_strncpy(char *dest, char *src, int n)
 {
-	if (dest == NULL ) return NULL;
+	if (dest == NULL)
+		return NULL;
 
 	n = 0;
 
