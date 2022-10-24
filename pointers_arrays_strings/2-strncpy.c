@@ -6,26 +6,21 @@
  * @dest: destination string.
  * @src: source string
  * @n: number of bytes of str to concat
+ * Return: the val that has been copied.
  */
 
 char *_strncpy(char *dest, char *src, int n)
 {
-	int i, j;
+	if (dest == NULL ) return NULL;
 
-	j = 0;
+	int i = 0;
 
 	while (dest[i] != '\0')
-		i++;
-
-	while (src[j] != '0' && j < n)
 	{
-		dest[i] = src[j];
-		j++;
+		dest[i] = src[i];
 		i++;
 	}
-
 	dest[i] = '\0';
+
 	return (dest);
-
 }
-
