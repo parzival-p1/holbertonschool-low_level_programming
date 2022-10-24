@@ -1,20 +1,20 @@
 #include "main.h"
 
 /**
- * _strncat - concatenatest two functions.
+ * _strncat - concatenatest two strings. 
  *
  * @dest: destination string. 
  * @src: source string
  * @n: num of bytes of str to concat
  *
- * return: a pointer to the resulting str dest
+ * Return: a pointer to the resulting str dest
  */
 
 char *_strncat(char *dest, char *src, int n)
 {
 	int i, len;
 
-	int len = 0;
+	len = 0;
 
 	while (dest[len] != '\0';)
 		len++;
