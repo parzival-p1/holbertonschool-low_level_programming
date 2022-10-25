@@ -2,12 +2,12 @@
 
 /**
  * string_touppeer - changes all lowcase letter to uppcase.
- * 
+ *
  * @s: string to modify
  * Return: the resulting str
  */
 
-char *string_toupper(char *);
+char *string_toupper(char *)
 {
 	int i, j;
 
