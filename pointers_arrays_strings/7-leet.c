@@ -7,14 +7,14 @@
  * Return: returns encoded str into 1337
  */
 
-char *leet (char *s)
+char *leet(char *s)
 {
 
 	int i, j;
 
 	char *a = "aAeEoOtTlL";
 
-	char *b = "43071";
+	char *b = "4433007711";
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
