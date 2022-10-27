@@ -21,4 +21,8 @@ int **alloc_grid(int width, int height)
 /* 4. Write a function that frees a 2 dimensional grid
  * previously created by your alloc_grid function. 
  */
-void free_grid(int **grid, int height)	
+void free_grid(int **grid, int height)
+
+/* _putchar function */
+int _putchar(char c);
+	
