@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * _strsup - returns a *ptr to a new allocate, 
+ * _strdup - returns a *ptr to a new allocate, 
  * space in memory.
  *
  * @str: string to be copied.
@@ -10,20 +10,30 @@
 
 char *_strdup(char *str)
 {
-	int *c;
-	
-	int i = 0;
+	int i, len;
+	char *arr;
 
-	c = malloc(sizeof((char) * str)); 
-
-	if (c == NULL || str == NULL)
+	if (str == NULL)
 		return (NULL);
 
-	for (; i < c; i++)
-		c[i] = str;
+	i = 0;
+	while (str[i] != '\0')
+		i++;
 
-	return(c);
+	i++;
+	arr = malloc(sizeof(*str) *i)
 
-	free(c);
+	if (arr == NULL)
+		return (NULL);
+	j = 0;
+
+	while (str[len] != '\0')
+	{
+		arr[len] = str[len];
+		len++;
+	}
+	return (arr);
+
+	free(arr);
 }
 
