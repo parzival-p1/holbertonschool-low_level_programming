@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * _strdup - returns a *ptr to a new allocate, 
+ * _strdup - returns a *ptr to a new allocate,
  * space in memory.
  *
  * @str: string to be copied.
