@@ -35,6 +35,10 @@
 - Pointers in C / C++ [Full Course] 
 	- https://www.youtube.com/watch?v=zuegQmMdy8M
 
-- C Programming: Pointers, arrays, and pointer arithmetic
+- C Programming: Pointers, arrays, and pointer arithmetic - B. Brown
 	
 	- https://youtu.be/nop5ZodWB_g?t=1887
+
+- C Programming: Pointers and Arrays - B. Brown 
+
+	-  https://www.youtube.com/watch?v=f-m3AH6EeTY
