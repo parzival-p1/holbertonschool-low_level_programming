@@ -42,3 +42,6 @@
 - C Programming: Pointers and Arrays - B. Brown 
 
 	-  https://www.youtube.com/watch?v=f-m3AH6EeTY
+
+- Pointers in C Pointer to Pointer - J. Kathri
+	- https://youtu.be/TPNYntM-5o4?t=156
