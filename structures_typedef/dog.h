@@ -7,10 +7,10 @@
  * @owner: pet owne
  */
 
-struct dog d
+struct dog 
 {
-	char * name;
+	char *name;
 	float age;
-	char * owner;
+	char *owner;
 }
 
