@@ -3,8 +3,8 @@
  * Auth: Fco Hdz
  */
 
-#ifndef _DOG_H_
-#define _DOG_H
+#ifndef DOGH
+#define DOGH
 
 /**
  * struct dog - dog structure
