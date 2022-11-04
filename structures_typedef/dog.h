@@ -30,19 +30,13 @@ typedef struct dog_t
 	char *owner;
 } dog_t;
 
-/**
- * 1. Write a function that initialize a variable
- * of type struct dog
- */
+/* 1. Write a function that initialize a variable of type struct dog  */
 void init_dog(struct dog *d, char *name, float age, char *owner);
 
 /* 2. Write a function that prints a struct dog */
 void print_dog(struct dog *d);
 
-/**
- * Define a new type dog_t as a new name
- * for the type struct dog
- */
+/* 3. Define a new type dog_t as a new name for the type struct dog. */
 
 /* 4. Write a function that creates a new dog. */
 dog_t *new_dog(char *name, float age, char *owner);
