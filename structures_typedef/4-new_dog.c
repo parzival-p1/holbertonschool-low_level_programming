@@ -7,50 +7,37 @@
  * @owner: pet's owner
  * Return: ptr to a dog
  */
-
 dog_t *new_dog(char *name, float age, char *owner)
 {
+	int nameLen, ownerLen, i;	
 	dog_t *d;
-	int len;
-	char *ptr;
 
 	if (name == 0 || owner == 0)
 		return (NULL);
-
-	d = malloc(sizeof(dog_t));
-	if (d == NULL)
-		return (NULL);
-
-	for (len = 1; ptr = name *ptr; len++)
-		ptr++;
-
-	d->name = malloc(len);
-	if (d->name = 0)
+	
+	nameLen = ownerlLen = 0;
+	while (name[nameLen++])
+		;
+	while (owner[ownerLen++])
+		;
+	d->name = malloc(nameLen *sizeof(d->name));
+	if (d->name == NULL)
 	{
-		free(d);
+		free(d)
 		return (NULL);
 	}
-
-	for (len = 1; ptr = owner *ptr; len++)
-		ptr++;
-
-	d->owner = malloc(len);
-	if (d->owner = 0)
+	for (i = 0; i <= nameLen; i++)
+		d->name[i] = name[i];
+	d->age   = age;
+	d->owner = malloc(ownerLen * sizeof(d->owner));
+	if (d->owner == NULL)
 	{
-		free(d->name)
+		free(d->name);
 		free(d);
-		return (NULL);
-
+		return (NULL)
 	}
-
-	for (len = 1; *name != 0; len++, name++)
-		d->name[len] = *name;
-	d->name[len] = 0;
-	for (len = 0; *owner != 0; len++)
-		d->owner[len] = *owner++;
-	d->owner[len] = 0;
-	d->age = age;
-
+	for (i = 0; i <= ownerLen; i++)
+		d->owner[i] = owner[i];
 	return (d);
 }
 
