@@ -15,7 +15,7 @@ struct dog
 	char *owner;
 };
 
-typedef dog
+typedef struct dog
 {
 	char *name;
 	float age;
@@ -39,5 +39,4 @@ dog_t *new_dog(char *name, float age, char *owner);
 
 /* 5. Write a function that frees dogs. */
 void free_dog(dog_t *d);
-	
 
