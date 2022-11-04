@@ -1,11 +1,17 @@
-#include <stdio.h>
+/* 
+ * File: dog.h
+ * Auth: Fco Hdz
+ */
+
+#ifndef _DOG_H_
+#define _DOG_H
+
 /**
  * struct dog - dog structure
  *
  * @name: pet name
  * @age: pet age
  * @owner: pet owner
- * Return: always (0) succes
  */
 
 struct dog
@@ -15,7 +21,14 @@ struct dog
 	char *owner;
 };
 
-typedef struct dog
+/**
+ * struct dog_t - typedef struct
+ * @name: name of the dog
+ * @age: age of the dog
+ * @owner: owner of the dog
+ */
+
+typedef struct dog_t
 {
 	char *name;
 	float age;
