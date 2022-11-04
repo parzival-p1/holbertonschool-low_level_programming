@@ -3,8 +3,8 @@
  * Auth: Fco Hdz
  */
 
-#ifndef DOGH
-#define DOGH
+#ifndef _DOG_H_
+#define _DOG_H_
 
 /**
  * struct dog - dog structure
@@ -52,4 +52,6 @@ dog_t *new_dog(char *name, float age, char *owner);
 
 /* 5. Write a function that frees dogs. */
 void free_dog(dog_t *d);
+
+#endif
 
