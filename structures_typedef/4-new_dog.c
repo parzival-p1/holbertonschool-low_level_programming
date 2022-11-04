@@ -9,19 +9,19 @@
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	int nameLen, ownerLen, i;	
+	int nameLen, ownerLen, i;
 	dog_t *d;
-	
+
 	d = (dog_t *)malloc(sizeof(dog_t));
 	if (d == NULL)
 		return (NULL);
-	
+
 	nameLen = ownerLen = 0;
 	while (name[nameLen++])
 		;
 	while (owner[ownerLen++])
 		;
-	d->name = malloc(nameLen *sizeof(d->name));
+	d->name = malloc(nameLen * sizeof(d->name));
 	if (d->name == NULL)
 	{
 		free(d);
