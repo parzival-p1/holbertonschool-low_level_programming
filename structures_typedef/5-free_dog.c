@@ -13,7 +13,8 @@ void free_dog(dog_t *d)
 		return;
 
 	free(d->name);
-	free(owner->owner);
+	free(d->age)
+	free(d->owner);
 	free(d);
 }
 
