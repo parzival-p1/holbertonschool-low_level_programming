@@ -20,7 +20,7 @@ int factorial(int n);
 /* 4. Write a function that returns the value of x
  * raised to the power of y.
  */
-Prototype: int _pow_recursion(int x, int y);
+int _pow_recursion(int x, int y);
 
 /* 5. Write a function that returns the natural square
  *  root of a number.
