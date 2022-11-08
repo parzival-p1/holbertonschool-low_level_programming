@@ -11,16 +11,18 @@
 
 void print_diagsums(int *a, int size)
 {
-	int i, j, row, col, sum = 0;
+	int i, j, row, col = 0;
 
-	int n = sizeof(a)
+	for (i = 0; i < a; i++)
+	{
+		for (j = 0; j < size; i++)
+		{
+			if (i == j)
+				row += size[i][j];
 
-	for (int i = 0; i < n; i++)
-		sum += mat[i][i] + mat[i][n - i - 1];
-
-	if (n % 2)
-		sum -= size[n / 2][n / 2];
-
-	return (sum);
+			if ((i + j) == (a - 1))
+				col += size[i][j];
+		}
+	}
 }
 
