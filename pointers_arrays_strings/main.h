@@ -10,7 +10,6 @@ void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
 int _putchar(char c);
 
-
 /** *_* PROJECT 2 *_* **/
 
 
@@ -68,5 +67,9 @@ char *_strstr(char *haystack, char *needle);
 /* 6.  Write a function that prints the chessboard. */
 void print_chessboard(char (*a)[8]);
 
-/* 7. Write a function that prints the sum of the two diagonals of a square matrix of integers.  */
+/** 7. Write a function that prints the sum of the two
+ *  diagonals of a square matrix of integers.
+ */
 void print_diagsums(int *a, int size);
+
+#endif
