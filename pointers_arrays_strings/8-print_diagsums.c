@@ -24,7 +24,7 @@ void print_diagsums(int *a, int size)
 		}
 		else
 		{
-			return (row - col[n / 2][n / 2]);
+			return (row - col[col / 2][col / 2]);
 		}
 	}
 }
