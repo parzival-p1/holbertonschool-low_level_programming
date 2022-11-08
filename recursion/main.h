@@ -1,5 +1,5 @@
-#ifndef _MAIN_H_
-#define _MAIN_H_
+#ifndef _MAIN_H
+#define _MAIN_H
 
 /** 0. Write a function that prints a string,
  *  followed by a new line. 
@@ -34,4 +34,6 @@ int is_prime_number(int n);
 
 /* putchar function */
 int _putchar(char c);
+
+#endif /* MAIN_H */
 
