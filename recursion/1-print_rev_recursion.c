@@ -2,21 +2,16 @@
 /**
  * _print_rev_recursion - prints a str, in reverse.
  *
- * @s: ptr to the 1st element of a str of charachters
+ * @s: ptr to the 1st char of a str
  * return: Always 0 (success);
  */
 
 void _print_rev_recursion(char *s)
 {
-	char n;
-
-	if (*s < n)
-	{
-		_putchar('\n');
+	if (*s != '\0')
 		return;
-	}
-	else
-		_putchar(*s);
-	_print_rev_recursion(s - 1);
+
+	_print_rev_recursion(s + 1);
+	_putchar(*s);
 }
 
