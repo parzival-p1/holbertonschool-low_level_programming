@@ -2,20 +2,18 @@
 /**
  * _puts_recursion - prints a str, followed by a new line
  *
- * @s: ptr to a str of charachters
- *
- *
+ * @s: ptr to the 1st element of a str of charachters
+ * return: Always 0 (success);
  */
 
 void _puts_recursion(char *s)
 {
-	int i = 0;
-
-	if (*s != '\0')
+	if (*s == '\0')
+	{
+		_putchar('\n');
 		return;
+	}
 	else
 		_putchar(*(s++));
-	
-	_putchar('\n');
 }
 
