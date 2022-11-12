@@ -2,9 +2,9 @@
 /**
  * _puts_recursion - prints a str, followed by a new line
  *
- * @s: ptr to the 1st element of a str of charachters
- * return: Always 0 (success);
- */
+ * @s: pointer to a str
+ * Return: nothing
+ **/
 
 void _puts_recursion(char *s)
 {
@@ -13,8 +13,7 @@ void _puts_recursion(char *s)
 		_putchar('\n');
 		return;
 	}
-	else
-		_putchar(*s);
+	_putchar(*s);
 	_puts_recursion(s + 1);
 }
 
