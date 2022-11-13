@@ -32,6 +32,6 @@ int calc(int n, int div)
 	if (n % div == 0 || n <= 1)
 		return (0);
 
-	return (calculation(n, div + 1));
+	return (calc(n, div + 1));
 }
 
