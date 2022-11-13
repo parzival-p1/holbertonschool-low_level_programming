@@ -12,7 +12,7 @@ int is_prime_number(int n)
 
 	div = 2;
 	div = calc(n, div);
-	return (0);
+	return (div);
 }
 
 /**
