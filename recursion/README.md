@@ -43,3 +43,9 @@
 - Recursion in C | Introduction to Recursion	
 	- https://youtu.be/KQZIBckWK-s?t=180	
 
+- Pointers and Recursion with Julien Barbier.
+	- https://youtu.be/u1_5YUuG_mg?t=4193
+
+- Recursion & Recursive functions in C Programming | ALX PEER DISCUSSION 
+	- https://www.youtube.com/watch?v=0BtTPJOLPj0&list=PLqEaji1b3wvRaudEAMvyt1dIClA_y6SLS&index=8
+
