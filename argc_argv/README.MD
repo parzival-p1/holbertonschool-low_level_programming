@@ -3,7 +3,7 @@
 ## Learning Objectives 🎯
 - How to use arguments passed to your program
 
-- What are two prototypes of `main` that you know of, and in which case do you use one or the other
+- What are two prototypes of ~main~ that you know of, and in which case do you use one or the other
 
 - How to use `__attribute__((unused))` or `(void)` to compile functions with unused variables or parameters
 
@@ -22,7 +22,7 @@
 		* Only print one argument per line, ending with a new line
 
 3. Neither irony nor sarcasm is argument
-	- Write a program that multiplies two numbers.
+	- Write a program that multiplies two numbe
 		* Your program should print the result of the multiplication, followed by a new line
 		* You can assume that the two numbers and result of the multiplication can be stored in an integer
 		* If the program does not receive two arguments, your program should print Error, followed by a new line, and return 1
@@ -39,4 +39,4 @@
 
 
 ## Recommended links 🔗 
-- [https://www.youtube.com/watch?v=aP1ijjeZc24](What does int argc, char* argv[] mean?)	
+- [What does in    t argc, char* argv[] mean?](What does in    t argc, char* argv[] mean?)
