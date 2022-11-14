@@ -8,11 +8,11 @@
  * Return: Always 0 (success)
  */
 
-int main(__attribute__((unused))int argc, char **argv)
+int main(int argc, char **argv)
 {
 	int i;
 
-	for (i = 0; argv[i] != '\0'; i++)
+	for (i = 0; i < argv; i++)
 	{
 		printf("%s\n", argv[i]);
 	}
