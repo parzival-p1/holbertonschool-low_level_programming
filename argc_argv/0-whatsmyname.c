@@ -9,11 +9,6 @@
  */
 int main(int argc __attribute__((unused)), char *argv[])
 {
-	if (argc < 1)
-		return (NULL);
-
-	if (argc > 1)
-
 	printf("%s\n", *argv);
 
 	return (0);
