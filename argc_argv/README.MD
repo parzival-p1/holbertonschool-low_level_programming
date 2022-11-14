@@ -35,5 +35,6 @@
 		* You can assume that numbers and the addition of all the numbers can be stored in an int
 
 ## Recommended links 🔗
-[https://www.youtube.com/watch?v=aP1ijjeZc24](What does int argc, char* argv[] mean?
-)		
+[What does int argc, char* argv[] mean?
+](https://www.youtube.com/watch?v=aP1ijjeZc24)
+		
