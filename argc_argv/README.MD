@@ -3,7 +3,7 @@
 ## Learning Objectives 🎯
 - How to use arguments passed to your program
 
-- What are two prototypes of ~main~ that you know of, and in which case do you use one or the other
+- What are two prototypes of ``main`` that you know of, and in which case do you use one or the other
 
 - How to use `__attribute__((unused))` or `(void)` to compile functions with unused variables or parameters
 
@@ -34,9 +34,6 @@
 		* If one of the number contains symbols that are not digits, print Error, followed by a new line, and return 1
 		* You can assume that numbers and the addition of all the numbers can be stored in an int
 
-		
-		
-
-
-## Recommended links 🔗 
-- [What does in    t argc, char* argv[] mean?](What does in    t argc, char* argv[] mean?)
+## Recommended links 🔗
+[https://www.youtube.com/watch?v=aP1ijjeZc24](What does int argc, char* argv[] mean?
+)		
