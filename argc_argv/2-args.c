@@ -1,18 +1,20 @@
 #include "main.h"
+#include <stdio.h>
 /**
+ * main - entry point, prints all args it receives
+ * @argc: number of arguments
+ * @argv: array of arguments
  *
- *
- *
- *
- *
- *
+ * Return: Always 0 (success)
  */
 
-int main ()
+int main(int argc, char *argv[])
 {
-	if (a >= 0; )
+	int i;
 
-		
-		
-	_putchar("\n");
-}	
+	for (i = 0; argv[i] != '\0'x; i++)
+	{
+		printf("%s\n", argv[i]);
+	}
+}
+
