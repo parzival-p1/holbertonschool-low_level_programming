@@ -8,7 +8,7 @@
  * Return: zero if succesful 1 if there is less tan 2 args
  */
 
-int main (int argc, __attribute__((unused)) char **argv)
+int main(int argc, __attribute__((unused)) char **argv)
 {
 	int mult;
 
