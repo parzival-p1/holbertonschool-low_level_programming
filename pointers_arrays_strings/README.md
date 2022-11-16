@@ -42,11 +42,11 @@
 
 ## Recommended links 🔗
 
-- [21:Everything u need 2 know about pointers - Richard Buckland](https://www.youtube.com/watch?v=Rxvv9krECNw)
+- ___Highly Recommended___ [21:Everything u need 2 know about pointers - Richard Buckland](https://www.youtube.com/watch?v=Rxvv9krECNw)
 
 - [Pointers in C / C++ Full Course - freeCodeCamp](https://www.youtube.com/watch?v=zuegQmMdy8M)
 
-- [C Pointers Overview - B. Brown](https://youtu.be/dCsrfXtRUDM?t=46)
+- __Pointers clear and deep__ [C Pointers Overview - B. Brown](https://youtu.be/dCsrfXtRUDM?t=46)
 
 - [C Programming: Pointers, arrays, and pointer arithmetic - B. Brown] (https://youtu.be/nop5ZodWB_g?t=1887)
 	
