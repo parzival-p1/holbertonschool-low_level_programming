@@ -1,6 +1,6 @@
 # C - Pointers, arrays and strings
 
-# Learning Objectives 🎯
+## Learning Objectives 🎯
 
 - What are pointers and how to use them
 - What are arrays and how to use them
@@ -8,7 +8,7 @@
 - How to use strings and how to manipulate them
 - Scope of variables
 
-# Tasks 📚
+## Tasks 📚
 
 0. 98 Battery st. | Write a function that takes a pointer to an int as parameter and updates the value it points to to 98.
 
@@ -30,21 +30,17 @@
 
 9. strcpy | Write a function that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
 
-# Recommended links 🔗
+## Recommended links 🔗
 
-- Pointers in C / C++ [Full Course] - freeCodeCamp
-	- https://www.youtube.com/watch?v=zuegQmMdy8M
+- [21:Everything u need 2 know about pointers -Richard Buckland](https://www.youtube.com/watch?v=Rxvv9krECNw)
 
-- C: Pointers Overview - B. Brown
-	- https://youtu.be/dCsrfXtRUDM?t=46
+- [Pointers in C / C++ Full Course - freeCodeCamp](https://www.youtube.com/watch?v=zuegQmMdy8M)
 
-- C Programming: Pointers, arrays, and pointer arithmetic - B. Brown
+- [C: Pointers Overview - B. Brown](https://youtu.be/dCsrfXtRUDM?t=46)
+
+- [C Programming: Pointers, arrays, and pointer arithmetic - B. Brown] (https://youtu.be/nop5ZodWB_g?t=1887)
 	
-	- https://youtu.be/nop5ZodWB_g?t=1887
 
-- C Programming: Pointers and Arrays - B. Brown 
+- [C Programming: Pointers and Arrays - B. Brown](https://www.youtube.com/watch?v=f-m3AH6EeTY) 
 
-	-  https://www.youtube.com/watch?v=f-m3AH6EeTY
-
-- Pointers in C Pointer to Pointer - J. Kathri
-	- https://youtu.be/TPNYntM-5o4?t=156
+- [Pointers in C Pointer to Pointer - J. Kathri](https://youtu.be/TPNYntM-5o4?t=156)
