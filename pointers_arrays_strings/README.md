@@ -46,7 +46,7 @@
 
 - [Pointers in C / C++ Full Course - freeCodeCamp](https://www.youtube.com/watch?v=zuegQmMdy8M)
 
-- [C: Pointers Overview - B. Brown](https://youtu.be/dCsrfXtRUDM?t=46)
+- [C Pointers Overview - B. Brown](https://youtu.be/dCsrfXtRUDM?t=46)
 
 - [C Programming: Pointers, arrays, and pointer arithmetic - B. Brown] (https://youtu.be/nop5ZodWB_g?t=1887)
 	
