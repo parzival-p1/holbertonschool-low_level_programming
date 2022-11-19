@@ -1,6 +1,5 @@
-#ifndef _MAIN_H_
-#define  _MAIR_H_
-
+#ifndef LISTS_H
+#define LISTS_H
 /* 0. Write a function that prints all the elements of
  *  a list_t list.
  */
