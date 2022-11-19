@@ -23,6 +23,9 @@ list_t *add_node_end(list_t **head, const char *str);
 /* 4. Write a function that frees a list_t list. */
 void free_list(list_t *head);
 
+/* putchar function */
+int _putchar(char c);
+
 /**
  * struct list_s - singly linked list
  * @str: string - (malloc'ed string)
