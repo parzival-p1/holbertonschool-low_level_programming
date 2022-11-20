@@ -1,19 +1,19 @@
 # C - malloc, free
 
-# Recommended Links 🔗
+## Recommended Links 🔗
 
 - __Understanding the basics DMA & SMA__ *by J. Kathri*
  
-	- [Dynamic Memory Allocation using malloc()](https://youtu.b    e/y4EzSnHJj-Q?t=150)
+	- [Dynamic Memory Allocation using malloc()](https://youtu.be/y4EzSnHJj-Q?t=150)
 
-# Learning Objectives 🎯
+## Learning Objectives 🎯
 
 - What is the difference between automatic and dynamic allocation
 - What is malloc and free and how to use them
 - Why and when use malloc
 - How to use valgrind to check for memory leak
 
-# Tasks 📚
+## Tasks 📚
 
 0. Float like a butterfly, sting like a bee
 	- Write a function that creates an array of chars, and initializes it with a specific char.
