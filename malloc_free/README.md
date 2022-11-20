@@ -1,5 +1,11 @@
 # C - malloc, free
 
+# Recommended Links 🔗
+
+- __Understanding the basics DMA & SMA__ *by J. Kathri*
+ 
+	- [Dynamic Memory Allocation using malloc()](https://youtu.b    e/y4EzSnHJj-Q?t=150)
+
 # Learning Objectives 🎯
 
 - What is the difference between automatic and dynamic allocation
@@ -23,9 +29,4 @@
 
 4. It's not bragging if you can back it up
 	- Write a function that frees a 2 dimensional grid previously created by your alloc_grid function.
-
-# Recommended Links 🔗
-- Dynamic Memory Allocation using malloc()
-	- https://youtu.be/y4EzSnHJj-Q?t=150
-
  
