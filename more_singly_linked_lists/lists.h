@@ -15,12 +15,13 @@
  */
 typedef struct listint_s
 {
-    int n;
-    struct listint_s *next;
+	int n;
+	struct listint_s *next;
 } listint_t;
 
 /* 0. Write a function that prints all the elements of
-   a listint_t list. */
+ * a listint_t list.
+ */
 size_t print_listint(const listint_t *h);
 
 /* 1.  Write a function that returns the number of
