@@ -3,11 +3,11 @@
 ## Recommended links 🔗
 + __Understanding the basic concept__ *By R. Bucland UNSW & J. Kathri*
 	- [Linked Lists - Richard Buckland](https://www.youtube.com/watch?v=udapt4FGY20&t=130s)
-	- [Introduction to linked list](https://www.youtube.com/watch?v=dmb1i4oN5oE&list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuL    l8LU&index=7)
+	- [Introduction to linked list](https://www.youtube.com/watch?v=dmb1i4oN5oE&list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU&index=7)
 	
 + __Get to work__ *By J. Kathri & Ehoneah Obed*
-	- [Insert a node in Singly Linked List(at beginning, end,specified position)](https://www.youtube.com/watch?v=dq3    F3e9o2DM)
-	- [Delete a node from linked list (from beginning, end, specified position) ](https://www.youtube.com/watch?v=Cl    vYytk5Rlg)
+	- [Insert a node in Singly Linked List(at beginning, end,specified position)](https://www.youtube.com/watch?v=dq3F3e9o2DM)
+	- [Delete a node from linked list (from beginning, end, specified position) ](https://www.youtube.com/watch?v=ClvYytk5Rlg)
 	- [Singly Linked List & its Implementation in C explained](https://youtu.be/WRnXN2CHsTc?t=3242)
 	- [How to insert nodes in Singly Linked List in C](https://www.youtube.com/watch?v=SjO6FXdbn3k&t=11s)
 
