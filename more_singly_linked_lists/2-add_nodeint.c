@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * listint_t - adds a new node at the beggining of a list
+ * add_nodeint - adds a new node at the begginig of a list
  * @head: head of the node & ptr to the struct
  * @n: intiger value
  * Return: the address of a new element
