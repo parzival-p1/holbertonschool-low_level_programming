@@ -12,8 +12,8 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 
 	unsigned int pos = -1, insert = 0;
 
-	if (head == NULL)
-		return (NULL);
+	/*if (head == NULL)*/
+		/*return (NULL);*/
 
 	new = create_node(n);
 
