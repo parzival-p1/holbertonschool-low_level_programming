@@ -37,7 +37,7 @@ void free_listint(listint_t *head);
 /* 5. Frees a listint_t list. */
 void free_listint2(listint_t **head);
 
-/* 6. Deletes the head node of a listint_t linked list, and returns the head node’s data (n). */
+/*6. Deletes the head node of a listint_t Llist, & returns the head node’s data (n).*/
 
 /* 7. Returns the nth node of  a listint_t linked list. */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index);
