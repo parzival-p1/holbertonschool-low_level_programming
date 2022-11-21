@@ -1,7 +1,7 @@
 # C - More singly linked lists
 
 ## Recommended links 🔗
-+ __Understanding the basic concept__ *By R. Bucland UNSW & J. Kathri*
++ __Understanding the basic concept__ *By R. Buckland UNSW & J. Kathri*
 	- [Linked Lists - Richard Buckland](https://www.youtube.com/watch?v=udapt4FGY20&t=130s)
 	- [Introduction to linked list](https://www.youtube.com/watch?v=dmb1i4oN5oE&list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU&index=7)
 	
