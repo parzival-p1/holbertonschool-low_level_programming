@@ -23,7 +23,8 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	new_n->n = n;
 
 	if (idx == 0)
-	{	new_n->next = *head;
+	{
+		new_n->next = *head;
 		(*head) = new_n;
 		return (*head);
 	}
@@ -42,27 +43,6 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	}
 	if (idx > pos)
 		return (NULL);
-	return (new_n);
-}
-
-/**
- * create_node - creates a new node
- * @n: the integer value to be returned
- * Return: the new node
- */
-
-listint_t *create_node(int n)
-{
-	listint_t *new_n;
-
-	new_n = malloc(sizeof(listint_t));
-
-	if (new_n == NULL)
-		return (NULL);
-
-	new_n->n = n;
-	new_n->next = NULL;
-
 	return (new_n);
 }
 
