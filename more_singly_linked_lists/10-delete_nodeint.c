@@ -9,7 +9,7 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
 	listint_t *temp, *errase;
 
-	unsigned int pos;
+	unsigned int pos; 
 
 	if (head == NULL)
 		return (-1);
@@ -26,17 +26,16 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 	}
 
 	temp = *head;
-	pos = -1;
+	pos = 0;
 	while (temp)
 	{
-		pos++;
 		if (pos == index - 1)
 		{
 			errase = temp->next;
 			temp->next = errase->next;
 			free(errase);
-
 		}
+		pos++;
 		temp = temp->next;
 	}
 	if (index > pos)
