@@ -1,6 +1,6 @@
 # C - Doubly linked lists
 
-- ## Recomended Links 
+## Recomended Links 🔗 
 - __Understanding the basic concept__ *By J. Kathri* 
 	- [Introduction to Doubly Linked List in Data structures - *J. Kathri*](https://www.youtube.com/watch?v=nquQ_fYGGA4)
 
@@ -10,13 +10,13 @@
 	- [Deletion from Doubly Linked List (beginning,end,specific position) - *J. Kathri*](https://www.youtube.com/watch?v=7yNUXcOcHwE)
 
 
-- ## Learning Objectives
+## Learning Objectives 🎯
 
 	- What is a doubly linked list
 	- How to use doubly linked lists
 	- Start to look for the right source of information without too much help
 
-- ##Tasks
+## Tasks 📚
 
 0. Print list
 	- Write a function that prints all the elements of a `dlistint_t` list.
@@ -68,9 +68,3 @@ i		- Return: the number of nodes
 		- where `index` is the index of the node that should be deleted. Index starts at `0`
 		- Returns: `1` if it succeeded, `-1` if it failed
 	
-		
-
-
-
-
-
