@@ -1,9 +1,9 @@
 #include "lists.h"
 /**
- * delete_nodeint_at_index - deletes a node at given position
+ * get_dnodeint_at_index - returns the nth node of a list
  * @head: pointer to the struct listint_t
  * @index: index of the list
- * Return: 1 if succeded -1 if not
+ * Return: return NULL if the node doesn't exist
  */
 
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
