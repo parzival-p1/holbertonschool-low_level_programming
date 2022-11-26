@@ -21,7 +21,7 @@ typedef struct dlistint_s
     struct dlistint_s *next;
 } dlistint_t;
 
-/* 0. prints all the elements of a dlistint_t list */.
+/* 0. prints all the elements of a dlistint_t list */
 size_t print_dlistint(const dlistint_t *h);
 
 /* 1. returns the number of elements in a linked dlistint_t list */
