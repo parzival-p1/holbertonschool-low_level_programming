@@ -2,6 +2,15 @@
 
 ## Recommended Links
 
+- __Understanding the basics__
+
+- [What is a HashTable Data Structure](https://www.youtube.com/watch?v=MfhjkfocRR0)
+
+- [Data Structures: Hash Tables](https://www.youtube.com/watch?v=shs0KM3wKv8https://www.youtube.com/watch?v=shs0KM3wKv8)
+
+- __Get to Work__
+- [Hashing Techniques to Resolve Collision| Separate Chaining and Linear Probing - *By J. Kathri*](https://www.youtube.com/watch?v=zeMa9sg-VJM&list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU&index=108)
+
 ## Learnning Objectives
 
 - What is a hash function
