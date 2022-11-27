@@ -8,6 +8,7 @@
 
 - __Get to Work__
 	- [Hashing Techniques to Resolve Collision| Separate Chaining and Linear Probing - *By J. Kathri*](https://www.youtube.com/watch?v=zeMa9sg-VJM&list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU&index=108)
+	- [Hashing - Quadratic Probing | Collision Resolution Technique - *By J. Kathri*](https://www.youtube.com/watch?v=dxrLtf-Fybk&list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU&index=109)
 
 ## Learnning Objectives
 
