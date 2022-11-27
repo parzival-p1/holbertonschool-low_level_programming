@@ -57,7 +57,7 @@ void hash_table_delete(hash_table_t *ht);
 
 
 int check_key_size(const char *key);
-int check_value_size(const char *value);
+int k(hash_table_t *, const char *, unsigned long int, const char *);
 
 #endif /*__HASH__*/
 
