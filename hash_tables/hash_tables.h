@@ -55,5 +55,9 @@ void hash_table_print(const hash_table_t *ht);
 /* 6. deletes a hash table */
 void hash_table_delete(hash_table_t *ht);
 
-#endif
+
+int check_key_size(const char *key);
+int check_value_size(const char *value);
+
+#endif /*__HASH__*/
 
