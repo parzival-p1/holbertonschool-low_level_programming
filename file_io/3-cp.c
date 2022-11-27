@@ -1,96 +1,139 @@
 #include "main.h"
-void error_id(int stat, ...);
+int open_files(char *f_from, char *f_to);
+int read_files(int from_fd, int to_fd, char *f_from, char *f_to);
+int write_to_file(char *buff, int to_fd, int read_chars, char *f_to);
 
 /**
- * main - main function entry point
- * @argc: number of arguments passed
- * @argv: arguments being passed
- * Return: 98 read err, 99 write err, 100 close err, 0 sucess
- *
+ * main - Entry point
+ * @argc: Count of the arguments to start the program.
+ * @argv: An array of strings containing the arguments passed to the program.
+ * Description: The overall goal of this program is to copy the contents of a
+ * file FILE_FROM to a file FILE_TO. Usage ./cp FILE_FROM FILE_TO.
+ * Return: Always zero, but It will have exit 97 when there it does not have
+ * the right number of parameters, 98 when it can not read / open
+ * the file FILE_from, 99 when it can not open/write to the file FILE_TO and
+ * 100 when it can not close the file descriptors.
  */
 int main(int argc, char **argv)
 {
-	int input, output, file_r, file_w, buff_size = 1024;
-	char *buffer;
-	mode_t file_perm;
+	char *f_from;
+	char *f_to;
 
-	/* Check for errors on arguments. */
 	if (argc != 3)
-		error_id(97);
-	if (argv[1] == NULL)
-		error_id(98, argv[1]);
-	if (argv[2] == NULL)
-		error_id(99, argv[2]);
-	/* Check for errors on Input and Output files. */
-	input = open(argv[1], O_RDONLY);
-	if (input == -1)
-		error_id(98, argv[1]);
-	file_perm = S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH;
-	output = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, file_perm);
-	if (output == -1)
-		error_id(99, argv[2]);
-	/* Creates the buffer and checks for errors. */
-	buffer = malloc(buff_size * sizeof(char));
-	if (buffer == NULL)
-		return (1);
-	/* Reads the input file and checks for errors. */
-	file_r = read(input, buffer, buff_size);
-	if (file_r == -1)
-		error_id(98, argv[1]);
-	/* Loop that writes the file and checks for errors. */
-	while (file_r > 0)
-	{
-		file_w = write(output, buffer, file_r);
-		if (file_w == -1)
-			error_id(99, argv[2]);
-		file_r = read(input, buffer, buff_size);
-		if (file_r == -1)
-			error_id(98, argv[1]);
-	}
-	free(buffer);
-	if (close(input) == -1)
-		error_id(100, input);
-	if (close(output) == -1)
-		error_id(100, output);
-	return(0);
-}
-
-/**
- * error_id - Function that checks the error code.
- * @stat: Int that represent the error code.
- * @...: Variadic arguments for specific error codes.
- *
- * Description: Error id selector.
- * Return: Void.
- */
-void error_id(int stat, ...)
-{
-	va_list list;
-
-	va_start(list, stat);
-	if (stat == 97)
 	{
 		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
 		exit(97);
 	}
-	else if (stat == 98)
+	f_from = argv[1];
+	f_to = argv[2];
+
+	open_files(f_from, f_to);
+	exit(0);
+	return (0);
+}
+
+/**
+ * open_files - Opens the files necessary for copying contents.
+ * @f_from: Name of the file FILE_FROM.
+ * @f_to: Name of the file FILE_TO.
+ * Return: Always zero. Exit 98, and 99.
+ */
+int open_files(char *f_from, char *f_to)
+{
+	int from_fd;
+	int to_fd;
+
+	from_fd = open(f_from, O_RDONLY);
+	if (from_fd == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't read from file ");
-		dprintf(STDERR_FILENO, "%s\n", va_arg(list, char *));
+		dprintf(STDERR_FILENO,
+			"Error: Can't read from file %s\n", f_from);
 		exit(98);
 	}
-	else if (stat == 99)
+	to_fd = open(f_to, O_CREAT | O_EXCL | O_WRONLY, 0664);
+	if (to_fd == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't write to ");
-		dprintf(STDERR_FILENO, "%s\n", va_arg(list, char *));
-		exit(99);
+		/*if (errno == EEXIST) was removed*/
+		to_fd = open(f_to, O_WRONLY | O_TRUNC);
+		if (to_fd == -1)
+		{
+			dprintf(STDERR_FILENO,
+				"Error: Can't write to %s\n", f_to);
+			exit(99);
+		}
 	}
-	else
+	read_files(from_fd, to_fd, f_from, f_to);
+	if (close(from_fd) == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close fd ");
-		dprintf(STDERR_FILENO, "%d\n", va_arg(list, int));
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", from_fd);
 		exit(100);
 	}
-	va_end(list);
+	if (close(to_fd) == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", to_fd);
+		exit(100);
+	}
+	return (0);
+}
+/**
+ * read_files - Reads the file FROM_FILE.
+ * @from_fd: File descriptor for FROM_FILE.
+ * @to_fd: File descriptor for TO_FILE.
+ * @f_from: Name of the file FILE_FROM.
+ * @f_to: Name of the file FILE_TO.
+ * Return: Always zero. Exit 98.
+ */
+int read_files(int from_fd, int to_fd, char *f_from, char *f_to)
+{
+	int read_chars;
+	char buff[1024];
+
+	read_chars = read(from_fd, buff, 1024);
+	if (read_chars == -1)
+	{
+		dprintf(STDERR_FILENO,
+			"Error: Can't read from file %s\n", f_from);
+		exit(98);
+	}
+	write_to_file(buff, to_fd, read_chars, f_to);
+	while (read_chars != 0)
+	{
+		read_chars = read(from_fd, buff, 1024);
+		if (read_chars == -1)
+		{
+			dprintf(STDERR_FILENO,
+				"Error: Can't read from file %s\n", f_from);
+			exit(98);
+		}
+		if (read_chars == 0)
+			return (0);
+		write_to_file(buff, to_fd, read_chars, f_to);
+	}
+	return (0);
+}
+
+/**
+ * write_to_file - Writes to a file TO_FILE.
+ * @buff: An array of characters containing up to 1024 chars.
+ * @to_fd: File descriptor of file TO_FILE.
+ * @read_chars: A number representing how many characters were read and need to
+ * be written.
+ * @f_to: Name of the file FILE_TO.
+ * Return: Always Zero. Exit 99.
+ */
+int write_to_file(char *buff, int to_fd, int read_chars, char *f_to)
+{
+	int i;
+
+	for (i = 0; i < read_chars; i++)
+	{
+		if (write(to_fd, &buff[i], 1) == -1)
+		{
+			dprintf(STDERR_FILENO,
+				"Error: Can't write to %s\n", f_to);
+			exit(99);
+		}
+	}
+	return (0);
 }
 
