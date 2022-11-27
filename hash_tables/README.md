@@ -1,6 +1,6 @@
 #  C - Hash tables
 
-## Recommended Links
+## Recommended Links 🔗
 
 - __Understanding the basics__
 	- [What is a HashTable Data Structure](https://www.youtube.com/watch?v=MfhjkfocRR0)
@@ -10,7 +10,7 @@
 	- [Hashing Techniques to Resolve Collision| Separate Chaining and Linear Probing - *By J. Kathri*](https://www.youtube.com/watch?v=zeMa9sg-VJM&list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU&index=108)
 	- [Hashing - Quadratic Probing | Collision Resolution Technique - *By J. Kathri*](https://www.youtube.com/watch?v=dxrLtf-Fybk&list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU&index=109)
 
-## Learnning Objectives
+## Learnning Objectives 🎯
 
 - What is a hash function
 - What makes a good hash function
@@ -19,7 +19,7 @@
 - What are the advantages and drawbacks of using hash tables
 - What are the most common use cases of hash tables
 
-## Tasks
+## Tasks 📚
 
 0. ">>> ht = {}"
 	- Write a function that creates a hash table.
