@@ -37,3 +37,45 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	return (1);
 }
 
+/**
+ * check_key_size - Checks the key size.
+ * @key: pointer to an array of characters.
+ * Return: 0 if empty string. Otherwise 1.
+ */
+int check_key_size(const char *key)
+{
+	int i;
+
+	for (i = 0; key[i] != '\0'; i++)
+		;
+	return (i);
+}
+
+/**
+ * k - Checks if a key is already in the hash table.
+ * @h: Pointer to the hash table.
+ * @k: pointer to an array of characters.
+ * @idx: index where they key would exists.
+ * @val: Value of the key.
+ * Return: 0 if the key exist. 1 otherwise.
+ */
+int k(hash_table_t *h, const char *k, unsigned long int idx, const char *val)
+{
+	hash_node_t *tmp;
+
+	tmp = h->array[idx];
+	while (tmp != NULL)
+	{
+
+		if (strcmp(k, tmp->key) == 0)
+		{
+			free(tmp->value);
+			tmp->value = strdup(val);
+			return (0);
+		}
+
+		tmp = tmp->next;
+	}
+	return (1);
+}
+
