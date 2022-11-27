@@ -2,8 +2,6 @@
 
 ## Recommended Links 🔗
 
-<h2 align="center"> Recommended links </h2>
-
 - __Understanding the basics__
 	- [What is a HashTable Data Structure](https://www.youtube.com/watch?v=MfhjkfocRR0)
 	- [Data Structures: Hash Tables](https://www.youtube.com/watch?v=shs0KM3wKv8https://www.youtube.com/watch?v=shs0KM3wKv8)
