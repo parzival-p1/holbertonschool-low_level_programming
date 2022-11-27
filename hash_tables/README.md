@@ -1,4 +1,4 @@
-<h1 align="center"> Hash Tables </h1>
+<h1 align="center"> C - Hash Tables </h1>
 
 ## Recommended Links 🔗
 
