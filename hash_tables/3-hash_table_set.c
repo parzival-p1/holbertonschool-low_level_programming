@@ -1,7 +1,7 @@
 #include "hash_tables.h"
 /**
  * hash_table_set - adds an element to the hash table
- * @ht: ptr to the hash_table_t 
+ * @ht: ptr to the hash_table_t
  * @key: key to the hash table
  * @value: value assocaited with the key
  * Return: 1 if it succeeded 0 if not
