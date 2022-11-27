@@ -72,7 +72,7 @@ void err_id(int stat, ...)
 		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
 		exit(97);
 	}
-	else if (start == 98)
+	else if (stat == 98)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't read from file ");
 		dprintf(STDERR_FILENO, "%s\n", va_arg(list, char *));
