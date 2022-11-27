@@ -1,16 +1,16 @@
  <h1 align="center"> C - Static Libraries </h1>
 
 ## Recommended links 🔗
-- [Static libraries (Complete 100%)](https://www.youtube.com    /watch?v=tgBjyhq0SAs)
+- [Static libraries (Complete 100%)](https://www.youtube.com/watch?v=tgBjyhq0SAs)
 
-- [Static Libraries: How to Create & Use them in C programmi    ng](https://www.youtube.com/watch?v=icbR8V5eOQc) 
+- [Static Libraries: How to Create & Use them in C programming](https://www.youtube.com/watch?v=icbR8V5eOQc) 
 
-## Learning Objectives 🎯 
+### Learning Objectives 🎯 
 
 - What is a static library, how does it work, how to create one, and how to use iit
 - Basic usage of ar, ranlib, nm
 
-## Tasks 📚
+### Tasks 📚
 
 0. A library is not a luxury but one of the necessities of life
 	- Create the static library libmy.a containing all the functions listed below:
