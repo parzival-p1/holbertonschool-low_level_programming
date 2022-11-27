@@ -15,7 +15,7 @@ int main(int argc, char **argv)
 
 	/* Check for errors on arguments. */
 	if (argc != 3)
-		error_id(97);
+		err_id(97);
 	if (argv[1] == NULL)
 		error_id(98, argv[1]);
 	if (argv[2] == NULL)
@@ -55,7 +55,7 @@ int main(int argc, char **argv)
 }
 
 /**
- * err_id -  checks the error code.
+ * err_id - checks the error code.
  * @stat: represent the error code.
  * @...: Variadic arguments for specific error codes.
  *
@@ -66,13 +66,13 @@ void err_id(int stat, ...)
 {
 	va_list list;
 
-	va_start(list, stat);
+	va_stat(list, stat);
 	if (stat == 97)
 	{
 		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
 		exit(97);
 	}
-	else if (stat == 98)
+	else if (start == 98)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't read from file ");
 		dprintf(STDERR_FILENO, "%s\n", va_arg(list, char *));
