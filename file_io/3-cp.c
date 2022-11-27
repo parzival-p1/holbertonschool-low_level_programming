@@ -1,5 +1,5 @@
 #include "main.h"
-void err_id(int stat, ...)
+void err_id(int stat, ...);
 /**
  * main - main func entry point
  * @argc: num of args passed
