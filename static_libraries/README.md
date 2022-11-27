@@ -1,6 +1,6 @@
  <h1 align="center"> C - Static Libraries </h1>
 
-## Recommended links 🔗
+### Recommended links 🔗
 - [Static libraries (Complete 100%)](https://www.youtube.com/watch?v=tgBjyhq0SAs)
 
 - [Static Libraries: How to Create & Use them in C programming](https://www.youtube.com/watch?v=icbR8V5eOQc) 
