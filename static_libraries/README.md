@@ -1,11 +1,16 @@
-# C - Static libraries
+ <h1 align="center"> C - Static Libraries </h1>
 
-### Learning Objectives 🎯 
+## Recommended links 🔗
+- [Static libraries (Complete 100%)](https://www.youtube.com    /watch?v=tgBjyhq0SAs)
+
+- [Static Libraries: How to Create & Use them in C programmi    ng](https://www.youtube.com/watch?v=icbR8V5eOQc) 
+
+## Learning Objectives 🎯 
 
 - What is a static library, how does it work, how to create one, and how to use iit
 - Basic usage of ar, ranlib, nm
 
-### Tasks 📚
+## Tasks 📚
 
 0. A library is not a luxury but one of the necessities of life
 	- Create the static library libmy.a containing all the functions listed below:
@@ -37,10 +42,4 @@ Don’t forget to push your `main.h` file to your repository. It should at least
 
 1. Without libraries what have we? We have no past and no future
 	- Create a script called create_static_lib.sh that creates a static library called liball.a from all the .c files that are in the current directory.
-
-### Recommended links 🔗
-
-- [Static libraries (Complete 100%)](https://www.youtube.com/watch?v=tgBjyhq0SAs)
-
-- [Static Libraries: How to Create & Use them in C programming](https://www.youtube.com/watch?v=icbR8V5eOQc)
 
