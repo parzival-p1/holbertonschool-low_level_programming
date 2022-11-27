@@ -1,12 +1,13 @@
 #include "main.h"
-void err_id(int stat, ...);
-/**
- * main - main func entry point
- * @argc: num of args passed
- * @argv: args being passed
- * Return: 98 read err, 99 write err, 100 close err, 0 sucess
- */
+void error_id(int stat, ...);
 
+/**
+ * main - main function entry point
+ * @argc: number of arguments passed
+ * @argv: arguments being passed
+ * Return: 98 read err, 99 write err, 100 close err, 0 sucess
+ *
+ */
 int main(int argc, char **argv)
 {
 	int input, output, file_r, file_w, buff_size = 1024;
@@ -15,19 +16,19 @@ int main(int argc, char **argv)
 
 	/* Check for errors on arguments. */
 	if (argc != 3)
-		err_id(97);
+		error_id(97);
 	if (argv[1] == NULL)
-		err_id(98, argv[1]);
+		error_id(98, argv[1]);
 	if (argv[2] == NULL)
-		err_id(99, argv[2]);
+		error_id(99, argv[2]);
 	/* Check for errors on Input and Output files. */
 	input = open(argv[1], O_RDONLY);
 	if (input == -1)
-		err_id(98, argv[1]);
+		error_id(98, argv[1]);
 	file_perm = S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH;
 	output = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, file_perm);
 	if (output == -1)
-		err_id(99, argv[2]);
+		error_id(99, argv[2]);
 	/* Creates the buffer and checks for errors. */
 	buffer = malloc(buff_size * sizeof(char));
 	if (buffer == NULL)
@@ -35,38 +36,38 @@ int main(int argc, char **argv)
 	/* Reads the input file and checks for errors. */
 	file_r = read(input, buffer, buff_size);
 	if (file_r == -1)
-		err_id(98, argv[1]);
+		error_id(98, argv[1]);
 	/* Loop that writes the file and checks for errors. */
 	while (file_r > 0)
 	{
 		file_w = write(output, buffer, file_r);
 		if (file_w == -1)
-			err_id(99, argv[2]);
+			error_id(99, argv[2]);
 		file_r = read(input, buffer, buff_size);
 		if (file_r == -1)
-			err_id(98, argv[1]);
+			error_id(98, argv[1]);
 	}
 	free(buffer);
 	if (close(input) == -1)
-		err_id(100, input);
+		error_id(100, input);
 	if (close(output) == -1)
-		err_id(100, output);
-	return (0);
+		error_id(100, output);
+	return(0);
 }
 
 /**
- * err_id - checks the error code.
- * @stat: represent the error code.
+ * error_id - Function that checks the error code.
+ * @stat: Int that represent the error code.
  * @...: Variadic arguments for specific error codes.
  *
  * Description: Error id selector.
  * Return: Void.
  */
-void err_id(int stat, ...)
+void error_id(int stat, ...)
 {
 	va_list list;
 
-	va_stat(list, stat);
+	va_start(list, stat);
 	if (stat == 97)
 	{
 		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
