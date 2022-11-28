@@ -8,6 +8,14 @@
 
 - [Static Libraries: How to Create & Use them in C programming](https://www.youtube.com/watch?v=icbR8V5eOQc) 
 
+### Commands
+
+- __To compile the object files__
+	- `gcc -c *.c`
+
+- __To compile the static library__	
+	- `ar rcs libmy.a *o`	
+	
 ### Learning Objectives 🎯 
 
 - What is a static library, how does it work, how to create one, and how to use iit
@@ -46,3 +54,4 @@ Don’t forget to push your `main.h` file to your repository. It should at least
 1. Without libraries what have we? We have no past and no future
 	- Create a script called create_static_lib.sh that creates a static library called liball.a from all the .c files that are in the current directory.
 
+	
