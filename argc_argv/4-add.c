@@ -3,9 +3,10 @@
  * main - Adds only positive numbers
  * @argc: num of args passed to the program
  * @argv: arr of strs
+ * Return: 1 if failed 0 if succeed
  */
 
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int i, sum = 0;
 
@@ -13,7 +14,7 @@ int main (int argc, char *argv[])
 
 	if (argc == 1)
 	{
-		printf("argc = %d\n", 0);
+		printf("0");
 		return (0);
 	}
 
@@ -31,7 +32,7 @@ int main (int argc, char *argv[])
 	{
 		sum += atoi(argv[i]);
 	}
-	printf("Result = %d\n", sum);
+	printf(sum);
 
 	return (0);
 }
