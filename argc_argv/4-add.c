@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 /**
  * main - Adds only positive numbers
  * @argc: num of args passed to the program
