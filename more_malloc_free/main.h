@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdstring.h>
 
 /* 0. allocates memory using malloc */
 void *malloc_checked(unsigned int b);
