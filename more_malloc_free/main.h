@@ -5,6 +5,9 @@
 #include <stdlib.h>
 #include <stdstring.h>
 
+/* putchar function */
+int _putchar(char c);
+
 /* 0. allocates memory using malloc */
 void *malloc_checked(unsigned int b);
 
