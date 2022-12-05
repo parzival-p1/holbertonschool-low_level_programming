@@ -3,12 +3,12 @@
 ### Recommended Links 🔗
 
 __Understanding the basic concept__
-[Understanding C program Compilation Process](https://www.youtube.com/watch?v=VDslRumKvRA)
-[Introduction to Pre-processor in C| Preprocessor Directive](https://www.youtube.com/watch?v=pw0uGPmGNl8&t=13s&pp=ugMICgJlcxABGAE%3D)
+- [Understanding C program Compilation Process](https://www.youtube.com/watch?v=VDslRumKvRA)
+- [Introduction to Pre-processor in C| Preprocessor Directive](https://www.youtube.com/watch?v=pw0uGPmGNl8&t=13s&pp=ugMICgJlcxABGAE%3D)
 
 __Get to Work__ *by J. Kathri*
-[Macro in C | Preprocessor command #define and #undef in C](https://www.youtube.com/watch?v=InxAy7eI_OE&t=212s)
-[Predefined Macros in C | Conditional Pre-processor Commands](https://www.youtube.com/watch?v=ReBv6sBk8cI)
+- [Macro in C | Preprocessor command #define and #undef in C](https://www.youtube.com/watch?v=InxAy7eI_OE&t=212s)
+- [Predefined Macros in C | Conditional Pre-processor Commands](https://www.youtube.com/watch?v=ReBv6sBk8cI)
 
 ### Learning Objectives 🎯
 
