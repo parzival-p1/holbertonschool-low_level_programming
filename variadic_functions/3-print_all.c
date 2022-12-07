@@ -15,7 +15,7 @@ void print_all(const char * const format, ...)
 	{
 		switch (format[i])
 		{
-			case 'c';
+			case 'c':
 				printf("%c", va_arg(valist, int);
 				flag = 0;
 				break;
