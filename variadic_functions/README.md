@@ -2,10 +2,9 @@
 
 ### Recommended Links 🔗
 
-__Concepts & examples__
-- [How to create functions with a variable number of arguments using stdarg.h](https://www.youtube.com/watch?v=3iX9a_l9W9Y)
-
-- [Variadic Functions in C Programming ](https://www.youtube.com/watch?v=Lh7xydr8zzU&t=123s)
+- __Concepts & examples__
+	- [How to create functions with a variable number of arguments using stdarg.h](https://www.youtube.com/watch?v=3iX9a_l9W9Y)
+	- [Variadic Functions in C Programming ](https://www.youtube.com/watch?v=Lh7xydr8zzU&t=123s)
 
 ### Learning Objectives 🎯
 
