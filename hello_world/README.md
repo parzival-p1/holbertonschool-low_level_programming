@@ -2,8 +2,8 @@
 
 ### Recommended Links 🔗
 
-- [Learning to Program in C](https://www.youtube.com/watch?v=rk2fK2IIiiQ) *[by onathan Engelsma](https://www.youtube.com/@JonathanEngelsma)*
-- [Learning to Program in C](https://www.youtube.com/watch?v=FwpP_MsZWnU) *[by o    nathan Engelsma](https://www.youtube.com/@JonathanEngelsma)*
+- [Learning to Program in C](https://www.youtube.com/watch?v=rk2fK2IIiiQ) *[by Jonathan Engelsma](https://www.youtube.com/@JonathanEngelsma)*
+- [Learning to Program in C](https://www.youtube.com/watch?v=FwpP_MsZWnU) *[by Jonathan Engelsma](https://www.youtube.com/@JonathanEngelsma)*
 
 ### Learning Objectives 🎯
 
@@ -24,7 +24,7 @@ What is the official C coding style and how to check your code with ``betty-styl
 ### Tasks 📚
 
 
-0. Preprocessor
+*0. Preprocessor*
 - Write a script that runs a C file through the preprocessor and save the result into another file.
 	- The C file name will be saved in the variable ``$CFILE``
 	- The output should be saved in the file `` c``
