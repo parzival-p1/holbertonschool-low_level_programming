@@ -2,6 +2,11 @@
 
 ### Recommended Links 🔗
 
+__Concepts & examples__
+- [How to create functions with a variable number of arguments using stdarg.h](https://www.youtube.com/watch?v=3iX9a_l9W9Y)
+
+- [Variadic Functions in C Programming ](https://www.youtube.com/watch?v=Lh7xydr8zzU&t=123s)
+
 ### Learning Objectives 🎯
 
 - What are variadic functions
@@ -10,7 +15,7 @@
 
 ### Tasks 📚
 
-1. To be is to be the value of a variable
+__1. To be is to be the value of a variable__
 
 - Write a function that prints numbers, followed by a new line.
 	- Prototype: ``void print_numbers(const char *separator, const unsigned int n, ...);``
@@ -20,7 +25,7 @@
 	- If ``separator`` is ``NULL``, don’t print it
 	- Print a new line at the end of your function
 
-2. One woman's constant is another woman's variable
+__2. One woman's constant is another woman's variable__
 
 - Write a function that prints strings, followed by a new line
 	- Prototype: ``void print_strings(const char *separator, const unsigned int n, ...);``
@@ -31,7 +36,7 @@
 	- If one of the string is NULL, print ``(nil)`` instead
 	- Print a new line at the end of your function
 
-3. To be is a to be the value of a variable
+__3. To be is a to be the value of a variable__
 
 - Write a function that prints anything.
 	- Prototype: ``void print_all(const char * const format, ...);``
@@ -50,4 +55,3 @@
 	- You are allowed to use ``printf``
 	- Print a new line at the end of your function
 
-	
