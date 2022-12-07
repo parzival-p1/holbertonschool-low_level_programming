@@ -7,15 +7,15 @@
 
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-	int p;
 	unsigned int i;
+	int p;
 	va_list valist;
 
 	va_start(valist, n);
 	for (i = 0; i < n; i++)
 	{
 		p = va_arg(valist, int);
-		printf("%d\n", p);
+		printf("%d", p);
 		if (i < n - 1 && separator)
 			printf("%s", separator);
 	}
