@@ -9,7 +9,7 @@
 
 - Why C programming is awesome
 - Who invented C
-- Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds
+- Who are *__Dennis Ritchie__*, *__Brian Kernighan__* and *__Linus Torvalds__*
 - What happens when you type `` gcc main.c``
 - What is an entry point
 - What is ``main``
@@ -24,7 +24,7 @@ What is the official C coding style and how to check your code with ``betty-styl
 ### Tasks 📚
 
 
-*0. Preprocessor*
+__*0. Preprocessor*__
 - Write a script that runs a C file through the preprocessor and save the result into another file.
 	- The C file name will be saved in the variable ``$CFILE``
 	- The output should be saved in the file `` c``
