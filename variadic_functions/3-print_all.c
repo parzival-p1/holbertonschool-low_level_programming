@@ -6,7 +6,8 @@
 
 void print_all(const char * const format, ...)
 {
-	int i = 0, flag;
+	int i = 0; 
+	int flag;
 	char *str;
 	va_list valist;
 
@@ -16,15 +17,19 @@ void print_all(const char * const format, ...)
 		switch (format[i])
 		{
 			case 'c':
-				printf("%c", va_arg(valist, int);
+				printf("%c", va_arg(valist, int));
 				flag = 0;
 				break;
 			case 'i':
-				printf("%i", va_arg(valist, int);
+				printf("%i", va_arg(valist, int));
+				flag = 0;
+				break;
+			case 'f':
+				printf("%f", va_arg(valist, double));
 				flag = 0;
 				break;
 			case 's':
-				str = var_arg(a_list, char*)
+				str = va_arg(valist, char*);
 				if (str == NULL)
 					str = "(nil)";
 				printf("%s", str);
@@ -34,7 +39,7 @@ void print_all(const char * const format, ...)
 				flag = 1;
 				break;
 		}
-		if (format[i + 1] != '\0' && falg == 0)
+		if (format[i + 1] != '\0' && flag == 0)
 			printf(", ");
 		i++;
 	}
