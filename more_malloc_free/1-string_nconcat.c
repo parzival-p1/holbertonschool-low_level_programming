@@ -31,7 +31,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (mem == NULL)
 		return (NULL);
 
-	for (k; k < i; k++)
+	for ( ; k < i; k++)
 		mem[k] = s1[k];
 	for (k = 0; k < j; k++)
 		mem[k + i] = s2[k];
