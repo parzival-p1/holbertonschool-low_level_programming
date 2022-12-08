@@ -39,7 +39,7 @@ int op_mul(int a, int b)
  * Return: The integer division of a and b
  */
 int op_div(int a, int b)
-
+{
 	if (b == 0)
 	{
 		printf("Error\n");
@@ -47,8 +47,10 @@ int op_div(int a, int b)
 	}
 	return (a / b);
 }
+
 /**
- * op_mod - Returns the remainder of the integer division of two numbers.
+ * op_mod - Returns the remainder of the integer division of
+ * two numbers.
  * @a: The first integer number.
  * @b: The second integer number.
  *
