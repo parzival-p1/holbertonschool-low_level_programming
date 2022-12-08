@@ -16,12 +16,12 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	if (s1 != NULL)
 	{
-		for (i; s1[i]; i++)
+		for ( ; s1[i]; i++)
 			;
 	}
 	if (s2 != NULL)
 	{
-		for (i; s2[j]; j++)
+		for ( ; s2[j]; j++)
 			;
 	}
 	if (j > n)
