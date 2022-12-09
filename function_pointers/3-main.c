@@ -10,7 +10,7 @@
 
 int main(int argc, char *argv[])
 {
-	int a, b;
+	int a, b, c;
 
 	if (argc != 4)
 	{
@@ -18,15 +18,19 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 
-	if (get_op_func(argv[2]) == NULL)
+	a = atoi(argv[1]);
+	b = atoi(argv[3]);
+
+	ptr = get_op_func(argv[2]);
+
+	if (ptr == NULL)
 	{
 		printf("Error\n");
 		exit(99);
 	}
+	c = ptr(a, b);
+	printf("%d\n", c);
 
-	a = atoi(argv[1]);
-	b = atoi(argv[3]);
-	printf("%d\n", get_op_func(argv[2])(a, b));
 	return (0);
 }
 
