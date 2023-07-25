@@ -3,7 +3,8 @@
 #include <string.h>
 
 /**
- * main - prints all possible of two two-digit numbers
+ * main - prints all possible combinations of 
+ * two two-digit numbers
  *
  * Return: Always 0 (succes)
  */
@@ -34,7 +35,7 @@ int main(void)
 					putchar(' ');
 					putchar(k);
 					putchar(l);
-					if (!(j == 56 && i == 57))
+					if (!(j == 56 && i == 57)) // si esto NO es 98, en el 1er par put ',' y ' ' 
 					{
 						putchar(',');
 						putchar(' ');
@@ -50,4 +51,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
