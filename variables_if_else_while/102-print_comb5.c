@@ -9,33 +9,36 @@
  */
 int main(void)
 {
-	unsigned int i = 0;
+	unsigned int i = 48;
 	unsigned int j;
 	unsigned int k;
 	unsigned int l;
-	char *nums = (char *) malloc (sizeof(char) * 11);
 
-	strcpy(nums, "0123456789");
-
-	while(i < strlen(nums))
+	while (i <= 57)
 	{
-		j = 0;
-		while(j < strlen(nums))
+		j = 48;
+		while (j <= 57)
 		{
 			k = i;
-			while(k < strlen(nums))
+			while (k <= 57)
 			{
-				l = j + 1;
-				while (l < strlen(nums))
-				{
-					putchar(nums[i]);
-					putchar(nums[j]);
-					putchar(' ');
+				if (k == i)
+					l = j + 1;
+				else
+					l = 48;
 
-					putchar(nums[k]);
-					putchar(nums[l]);
-					putchar(',');
+				while (l <= 57)
+				{
+					putchar(i);
+					putchar(j);
 					putchar(' ');
+					putchar(k);
+					putchar(l);
+					if (!(j == 56 && i == 57))
+					{
+						putchar(',');
+						putchar(' ');
+					}
 					l++;
 				}
 				k++;
@@ -44,22 +47,7 @@ int main(void)
 		}
 		i++;
 	}
-
-/*	while(k < strlen(nums))
-	{
-		j = k + 1;
-		while(j < strlen(nums))
-		{	
-			putchar(nums[k]);
-			putchar(nums[j]);
-			putchar(',');
-			putchar(' ');
-			j++;
-		}
-		k++;
-	}*/
 	putchar('\n');
-	free(nums);
 	return (0);
 }
 
