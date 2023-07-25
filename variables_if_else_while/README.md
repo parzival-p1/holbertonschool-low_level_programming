@@ -1,4 +1,4 @@
-# C - Variables, if, else, while
+<h1 align="center"> 🅲 - Variables, if, else, while </h1>
 
 General
 What are the arithmetic operators and how to use them
