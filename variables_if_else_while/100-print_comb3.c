@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
 /**
  * main - prints all possible different combinations of two
  * digits
  * Return: Always 0 (succes)
  */
+
 int main(void)
 {
 	unsigned int i = 0;
@@ -22,8 +22,12 @@ int main(void)
 		{
 			putchar(nums[i]);
 			putchar(nums[j]);
-			putchar(',');
-			putchar(' ');
+
+			if (i != strlen(nums) - 2)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 			j++;
 		}
 		i++;
@@ -32,4 +36,3 @@ int main(void)
 	free(nums);
 	return (0);
 }
-
